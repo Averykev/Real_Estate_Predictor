@@ -8,4 +8,4 @@ This project utlizes Machine Learning and Azure ML to predict what the median ho
 
 It also showcases several important visualizations using Tableau, which pulls in data from AWS S3.
 
-The entire project then uses the Zappa library to be hosted using AWS Lamda.
+The entire project then uses the Zappa library to be hosted using AWS Lambda.
