@@ -1,0 +1,47 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>Determine the price of a home based on the below factors:</h2>
+
+<div class = "container-fluid">
+    <div class = "row">
+        <div class="col-lg-6">
+            <form method=post>
+                <dl>
+                    <p>
+                        <h3>RegionID</h3>
+                        Enter From Search to the Right<br/><br/>
+                        {{form.RegionID}}
+                    </p>
+
+                    <p>
+                        <h3>Stock Market</h3> 
+                        NASDAQ Value<br/><br/>
+                        {{form.Stock_Market}}
+                    </p>
+
+                    <p>
+                        <h3>Mortgage Rate</h3> 
+                        EX: 3.0<br/><br/>
+                        {{form.Mortgage_Rate}}
+                    </p>
+
+                    <p>
+                        <h3>MSACSR</h3> 
+                        Monthly Home Supply Ratio<br /><br />
+                        {{form.Monthly_Supply_Of_Homes}}
+                    </p>
+                </dl>
+                <p><input type="submit" value="submit"></p>
+            </form>
+        </div>
+
+        <div class = "col-lg-6">
+            <h3>Search for Region ID</h3>
+            <div class='tableauPlaceholder' id='viz1605842120429' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ci&#47;city_search&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='city_search&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ci&#47;city_search&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1605842120429');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </div>
+    </div>
+</div>    
+
+{% endblock %}

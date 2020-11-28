@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "app_function": "my_app.app",
+        "aws_region": "us-west-1",
+        "profile_name": "default",
+        "project_name": "azureml-flask",
+        "runtime": "python3.7",
+        "s3_bucket": "zappa-suc491jdt"
+    }
+}

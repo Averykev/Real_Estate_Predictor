@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<br />
+
+<h2>Project Summary</h2>
+
+<br />
+
+<p>When is the best time to buy a home? If you wait 10 years, will you be able to afford a house then? Our team set out to answer these questions. We examined the historical data, applied this data to machine learning, and have now created a live website where you can enter your own figures for a series of factors and see our predictions for future housing prices in the major metropolitan areas of the United States. Along the way, we also found some interesting correlations and trends that are available for viewing on our visualizations page.</p>
+
+<h2>Analysis Tool & Presentation</h2>
+
+<img src="{{ url_for('static', filename ='images/chart.png') }}" width="600px" height="400px">
+
+<br />
+
+<h2>Azure ML</h2>
+
+<img src="{{ url_for('static', filename = 'images/Random_Forest_Confusion_Matrix_Screenshot.JPG') }}">
+
+<br />
+
+<img src="{{ url_for('static', filename = 'images/Random Forest Metrics Screenshot - Azure ML.JPG') }}">
+
+{% endblock %}

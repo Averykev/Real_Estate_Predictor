@@ -1,0 +1,2699 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.0918.1727                               -->
+<workbook original-version='18.1' source-build='2020.3.1 (20203.20.0918.1727)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='monthly_comparisons' inline='true' name='federated.1ctqccq0xek3ud17judu10s4l51k' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='monthly_comparisons' name='textscan.0hin2db1efuoij1arvhwd1sic62y'>
+            <connection class='textscan' directory='C:/Users/megan/Documents/DataBootCamp_Projects/Group_3_Project_3/Resources' filename='monthly_comparisons.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0hin2db1efuoij1arvhwd1sic62y' name='monthly_comparisons.csv' table='[monthly_comparisons#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='Month' ordinal='0' />
+            <column datatype='integer' name='Median Housing Price' ordinal='1' />
+            <column datatype='real' name='MSACR' ordinal='2' />
+            <column datatype='real' name='Mortgage Rate' ordinal='3' />
+            <column datatype='integer' name='New York, NY' ordinal='4' />
+            <column datatype='integer' name='Los Angeles-Long Beach-Anaheim, CA' ordinal='5' />
+            <column datatype='integer' name='Chicago, IL' ordinal='6' />
+            <column datatype='integer' name='Dallas-Fort Worth, TX' ordinal='7' />
+            <column datatype='integer' name='Philadelphia, PA' ordinal='8' />
+            <column datatype='integer' name='Houston, TX' ordinal='9' />
+            <column datatype='integer' name='Washington, DC' ordinal='10' />
+            <column datatype='integer' name='Miami-Fort Lauderdale, FL' ordinal='11' />
+            <column datatype='integer' name='Atlanta, GA' ordinal='12' />
+            <column datatype='integer' name='Boston, MA' ordinal='13' />
+            <column datatype='integer' name='San Francisco, CA' ordinal='14' />
+            <column datatype='integer' name='Detroit, MI' ordinal='15' />
+            <column datatype='integer' name='Riverside, CA' ordinal='16' />
+            <column datatype='integer' name='Phoenix, AZ' ordinal='17' />
+            <column datatype='integer' name='Seattle, WA' ordinal='18' />
+            <column datatype='integer' name='Minneapolis-St Paul, MN' ordinal='19' />
+            <column datatype='integer' name='San Diego, CA' ordinal='20' />
+            <column datatype='integer' name='St. Louis, MO' ordinal='21' />
+            <column datatype='integer' name='Tampa, FL' ordinal='22' />
+            <column datatype='integer' name='Baltimore, MD' ordinal='23' />
+            <column datatype='integer' name='Denver, CO' ordinal='24' />
+            <column datatype='integer' name='Pittsburgh, PA' ordinal='25' />
+            <column datatype='integer' name='Portland, OR' ordinal='26' />
+            <column datatype='integer' name='Charlotte, NC' ordinal='27' />
+            <column datatype='integer' name='Sacramento, CA' ordinal='28' />
+            <column datatype='integer' name='San Antonio, TX' ordinal='29' />
+            <column datatype='integer' name='Orlando, FL' ordinal='30' />
+            <column datatype='integer' name='Cincinnati, OH' ordinal='31' />
+            <column datatype='integer' name='Cleveland, OH' ordinal='32' />
+            <column datatype='integer' name='Kansas City, MO' ordinal='33' />
+            <column datatype='integer' name='Las Vegas, NV' ordinal='34' />
+            <column datatype='integer' name='Columbus, OH' ordinal='35' />
+            <column datatype='integer' name='Indianapolis, IN' ordinal='36' />
+            <column datatype='integer' name='San Jose, CA' ordinal='37' />
+            <column datatype='integer' name='Austin, TX' ordinal='38' />
+            <column datatype='integer' name='Virginia Beach, VA' ordinal='39' />
+            <column datatype='integer' name='Nashville, TN' ordinal='40' />
+            <column datatype='integer' name='Providence, RI' ordinal='41' />
+            <column datatype='integer' name='Milwaukee, WI' ordinal='42' />
+            <column datatype='integer' name='Jacksonville, FL' ordinal='43' />
+            <column datatype='integer' name='Memphis, TN' ordinal='44' />
+            <column datatype='integer' name='Oklahoma City, OK' ordinal='45' />
+            <column datatype='integer' name='Louisville-Jefferson County, KY' ordinal='46' />
+            <column datatype='integer' name='Hartford, CT' ordinal='47' />
+            <column datatype='integer' name='Richmond, VA' ordinal='48' />
+            <column datatype='integer' name='New Orleans, LA' ordinal='49' />
+            <column datatype='integer' name='Buffalo, NY' ordinal='50' />
+            <column datatype='integer' name='Raleigh, NC' ordinal='51' />
+            <column datatype='integer' name='Birmingham, AL' ordinal='52' />
+            <column datatype='integer' name='Salt Lake City, UT' ordinal='53' />
+            <column datatype='integer' name='Rochester, NY' ordinal='54' />
+            <column datatype='integer' name='Grand Rapids, MI' ordinal='55' />
+            <column datatype='integer' name='Tucson, AZ' ordinal='56' />
+            <column datatype='integer' name='Urban Honolulu, HI' ordinal='57' />
+            <column datatype='integer' name='Tulsa, OK' ordinal='58' />
+            <column datatype='integer' name='Fresno, CA' ordinal='59' />
+            <column datatype='integer' name='Worcester, MA' ordinal='60' />
+            <column datatype='integer' name='Stamford, CT' ordinal='61' />
+            <column datatype='integer' name='Albuquerque, NM' ordinal='62' />
+            <column datatype='integer' name='Albany, NY' ordinal='63' />
+            <column datatype='integer' name='Omaha, NE' ordinal='64' />
+            <column datatype='integer' name='New Haven, CT' ordinal='65' />
+            <column datatype='integer' name='Bakersfield, CA' ordinal='66' />
+            <column datatype='integer' name='Knoxville, TN' ordinal='67' />
+            <column datatype='integer' name='Greenville, SC' ordinal='68' />
+            <column datatype='integer' name='Ventura, CA' ordinal='69' />
+            <column datatype='integer' name='Allentown, PA' ordinal='70' />
+            <column datatype='integer' name='El Paso, TX' ordinal='71' />
+            <column datatype='integer' name='Baton Rouge, LA' ordinal='72' />
+            <column datatype='integer' name='Dayton, OH' ordinal='73' />
+            <column datatype='integer' name='McAllen, TX' ordinal='74' />
+            <column datatype='integer' name='Columbia, SC' ordinal='75' />
+            <column datatype='integer' name='Greensboro, NC' ordinal='76' />
+            <column datatype='integer' name='Akron, OH' ordinal='77' />
+            <column datatype='integer' name='North Port-Sarasota-Bradenton, FL' ordinal='78' />
+            <column datatype='integer' name='Little Rock, AR' ordinal='79' />
+            <column datatype='integer' name='Stockton, CA' ordinal='80' />
+            <column datatype='integer' name='Charleston, SC' ordinal='81' />
+            <column datatype='integer' name='Syracuse, NY' ordinal='82' />
+            <column datatype='integer' name='Colorado Springs, CO' ordinal='83' />
+            <column datatype='integer' name='Winston-Salem, NC' ordinal='84' />
+            <column datatype='integer' name='Wichita, KS' ordinal='85' />
+            <column datatype='integer' name='Springfield, MA' ordinal='86' />
+            <column datatype='integer' name='Fort Myers, FL' ordinal='87' />
+            <column datatype='integer' name='Boise City, ID' ordinal='88' />
+            <column datatype='integer' name='Toledo, OH' ordinal='89' />
+            <column datatype='integer' name='Madison, WI' ordinal='90' />
+            <column datatype='integer' name='Lakeland, FL' ordinal='91' />
+            <column datatype='integer' name='Ogden, UT' ordinal='92' />
+            <column datatype='integer' name='Daytona Beach, FL' ordinal='93' />
+            <column datatype='integer' name='Des Moines, IA' ordinal='94' />
+            <column datatype='integer' name='Jackson, MS' ordinal='95' />
+            <column datatype='integer' name='Augusta, GA' ordinal='96' />
+            <column datatype='integer' name='Harrisburg, PA' ordinal='97' />
+            <column datatype='integer' name='Provo, UT' ordinal='98' />
+            <column datatype='integer' name='Durham, NC' ordinal='99' />
+            <column datatype='integer' name='Port St. Lucie, FL' ordinal='100' />
+            <column datatype='integer' name='Vallejo, CA' ordinal='101' />
+            <column datatype='integer' name='Killeen, TX' ordinal='102' />
+            <column datatype='integer' name='Salem, OR' ordinal='103' />
+            <column datatype='integer' name='Ocala, FL' ordinal='104' />
+            <column datatype='integer' name='Fort Collins, CO' ordinal='105' />
+            <column datatype='integer' name='Boulder, CO' ordinal='106' />
+            <column datatype='integer' name='Clarksville, TN' ordinal='107' />
+            <column datatype='integer' name='Greeley, CO' ordinal='108' />
+            <column datatype='integer' name='Macon-Bibb County, GA' ordinal='109' />
+            <column datatype='integer' name='Athens, GA' ordinal='110' />
+            <column datatype='integer' name='Gainesville, GA' ordinal='111' />
+            <column datatype='integer' name='Yuba City, CA' ordinal='112' />
+            <column datatype='integer' name='Punta Gorda, FL' ordinal='113' />
+            <column datatype='integer' name='Pueblo, CO' ordinal='114' />
+            <column datatype='integer' name='Sherman, TX' ordinal='115' />
+            <column datatype='integer' name='Dunn, NC' ordinal='116' />
+            <column datatype='integer' name='Truckee, CA' ordinal='117' />
+            <column datatype='integer' name='The Villages, FL' ordinal='118' />
+            <column datatype='integer' name='Faribault, MN' ordinal='119' />
+            <column datatype='integer' name='Albemarle, NC' ordinal='120' />
+            <column datatype='integer' name='Kerrville, TX' ordinal='121' />
+            <column datatype='integer' name='Shelbyville, TN' ordinal='122' />
+            <column datatype='integer' name='Wilmington, OH' ordinal='123' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0hin2db1efuoij1arvhwd1sic62y' name='monthly_comparisons.csv' table='[monthly_comparisons#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='Month' ordinal='0' />
+            <column datatype='integer' name='Median Housing Price' ordinal='1' />
+            <column datatype='real' name='MSACR' ordinal='2' />
+            <column datatype='real' name='Mortgage Rate' ordinal='3' />
+            <column datatype='integer' name='New York, NY' ordinal='4' />
+            <column datatype='integer' name='Los Angeles-Long Beach-Anaheim, CA' ordinal='5' />
+            <column datatype='integer' name='Chicago, IL' ordinal='6' />
+            <column datatype='integer' name='Dallas-Fort Worth, TX' ordinal='7' />
+            <column datatype='integer' name='Philadelphia, PA' ordinal='8' />
+            <column datatype='integer' name='Houston, TX' ordinal='9' />
+            <column datatype='integer' name='Washington, DC' ordinal='10' />
+            <column datatype='integer' name='Miami-Fort Lauderdale, FL' ordinal='11' />
+            <column datatype='integer' name='Atlanta, GA' ordinal='12' />
+            <column datatype='integer' name='Boston, MA' ordinal='13' />
+            <column datatype='integer' name='San Francisco, CA' ordinal='14' />
+            <column datatype='integer' name='Detroit, MI' ordinal='15' />
+            <column datatype='integer' name='Riverside, CA' ordinal='16' />
+            <column datatype='integer' name='Phoenix, AZ' ordinal='17' />
+            <column datatype='integer' name='Seattle, WA' ordinal='18' />
+            <column datatype='integer' name='Minneapolis-St Paul, MN' ordinal='19' />
+            <column datatype='integer' name='San Diego, CA' ordinal='20' />
+            <column datatype='integer' name='St. Louis, MO' ordinal='21' />
+            <column datatype='integer' name='Tampa, FL' ordinal='22' />
+            <column datatype='integer' name='Baltimore, MD' ordinal='23' />
+            <column datatype='integer' name='Denver, CO' ordinal='24' />
+            <column datatype='integer' name='Pittsburgh, PA' ordinal='25' />
+            <column datatype='integer' name='Portland, OR' ordinal='26' />
+            <column datatype='integer' name='Charlotte, NC' ordinal='27' />
+            <column datatype='integer' name='Sacramento, CA' ordinal='28' />
+            <column datatype='integer' name='San Antonio, TX' ordinal='29' />
+            <column datatype='integer' name='Orlando, FL' ordinal='30' />
+            <column datatype='integer' name='Cincinnati, OH' ordinal='31' />
+            <column datatype='integer' name='Cleveland, OH' ordinal='32' />
+            <column datatype='integer' name='Kansas City, MO' ordinal='33' />
+            <column datatype='integer' name='Las Vegas, NV' ordinal='34' />
+            <column datatype='integer' name='Columbus, OH' ordinal='35' />
+            <column datatype='integer' name='Indianapolis, IN' ordinal='36' />
+            <column datatype='integer' name='San Jose, CA' ordinal='37' />
+            <column datatype='integer' name='Austin, TX' ordinal='38' />
+            <column datatype='integer' name='Virginia Beach, VA' ordinal='39' />
+            <column datatype='integer' name='Nashville, TN' ordinal='40' />
+            <column datatype='integer' name='Providence, RI' ordinal='41' />
+            <column datatype='integer' name='Milwaukee, WI' ordinal='42' />
+            <column datatype='integer' name='Jacksonville, FL' ordinal='43' />
+            <column datatype='integer' name='Memphis, TN' ordinal='44' />
+            <column datatype='integer' name='Oklahoma City, OK' ordinal='45' />
+            <column datatype='integer' name='Louisville-Jefferson County, KY' ordinal='46' />
+            <column datatype='integer' name='Hartford, CT' ordinal='47' />
+            <column datatype='integer' name='Richmond, VA' ordinal='48' />
+            <column datatype='integer' name='New Orleans, LA' ordinal='49' />
+            <column datatype='integer' name='Buffalo, NY' ordinal='50' />
+            <column datatype='integer' name='Raleigh, NC' ordinal='51' />
+            <column datatype='integer' name='Birmingham, AL' ordinal='52' />
+            <column datatype='integer' name='Salt Lake City, UT' ordinal='53' />
+            <column datatype='integer' name='Rochester, NY' ordinal='54' />
+            <column datatype='integer' name='Grand Rapids, MI' ordinal='55' />
+            <column datatype='integer' name='Tucson, AZ' ordinal='56' />
+            <column datatype='integer' name='Urban Honolulu, HI' ordinal='57' />
+            <column datatype='integer' name='Tulsa, OK' ordinal='58' />
+            <column datatype='integer' name='Fresno, CA' ordinal='59' />
+            <column datatype='integer' name='Worcester, MA' ordinal='60' />
+            <column datatype='integer' name='Stamford, CT' ordinal='61' />
+            <column datatype='integer' name='Albuquerque, NM' ordinal='62' />
+            <column datatype='integer' name='Albany, NY' ordinal='63' />
+            <column datatype='integer' name='Omaha, NE' ordinal='64' />
+            <column datatype='integer' name='New Haven, CT' ordinal='65' />
+            <column datatype='integer' name='Bakersfield, CA' ordinal='66' />
+            <column datatype='integer' name='Knoxville, TN' ordinal='67' />
+            <column datatype='integer' name='Greenville, SC' ordinal='68' />
+            <column datatype='integer' name='Ventura, CA' ordinal='69' />
+            <column datatype='integer' name='Allentown, PA' ordinal='70' />
+            <column datatype='integer' name='El Paso, TX' ordinal='71' />
+            <column datatype='integer' name='Baton Rouge, LA' ordinal='72' />
+            <column datatype='integer' name='Dayton, OH' ordinal='73' />
+            <column datatype='integer' name='McAllen, TX' ordinal='74' />
+            <column datatype='integer' name='Columbia, SC' ordinal='75' />
+            <column datatype='integer' name='Greensboro, NC' ordinal='76' />
+            <column datatype='integer' name='Akron, OH' ordinal='77' />
+            <column datatype='integer' name='North Port-Sarasota-Bradenton, FL' ordinal='78' />
+            <column datatype='integer' name='Little Rock, AR' ordinal='79' />
+            <column datatype='integer' name='Stockton, CA' ordinal='80' />
+            <column datatype='integer' name='Charleston, SC' ordinal='81' />
+            <column datatype='integer' name='Syracuse, NY' ordinal='82' />
+            <column datatype='integer' name='Colorado Springs, CO' ordinal='83' />
+            <column datatype='integer' name='Winston-Salem, NC' ordinal='84' />
+            <column datatype='integer' name='Wichita, KS' ordinal='85' />
+            <column datatype='integer' name='Springfield, MA' ordinal='86' />
+            <column datatype='integer' name='Fort Myers, FL' ordinal='87' />
+            <column datatype='integer' name='Boise City, ID' ordinal='88' />
+            <column datatype='integer' name='Toledo, OH' ordinal='89' />
+            <column datatype='integer' name='Madison, WI' ordinal='90' />
+            <column datatype='integer' name='Lakeland, FL' ordinal='91' />
+            <column datatype='integer' name='Ogden, UT' ordinal='92' />
+            <column datatype='integer' name='Daytona Beach, FL' ordinal='93' />
+            <column datatype='integer' name='Des Moines, IA' ordinal='94' />
+            <column datatype='integer' name='Jackson, MS' ordinal='95' />
+            <column datatype='integer' name='Augusta, GA' ordinal='96' />
+            <column datatype='integer' name='Harrisburg, PA' ordinal='97' />
+            <column datatype='integer' name='Provo, UT' ordinal='98' />
+            <column datatype='integer' name='Durham, NC' ordinal='99' />
+            <column datatype='integer' name='Port St. Lucie, FL' ordinal='100' />
+            <column datatype='integer' name='Vallejo, CA' ordinal='101' />
+            <column datatype='integer' name='Killeen, TX' ordinal='102' />
+            <column datatype='integer' name='Salem, OR' ordinal='103' />
+            <column datatype='integer' name='Ocala, FL' ordinal='104' />
+            <column datatype='integer' name='Fort Collins, CO' ordinal='105' />
+            <column datatype='integer' name='Boulder, CO' ordinal='106' />
+            <column datatype='integer' name='Clarksville, TN' ordinal='107' />
+            <column datatype='integer' name='Greeley, CO' ordinal='108' />
+            <column datatype='integer' name='Macon-Bibb County, GA' ordinal='109' />
+            <column datatype='integer' name='Athens, GA' ordinal='110' />
+            <column datatype='integer' name='Gainesville, GA' ordinal='111' />
+            <column datatype='integer' name='Yuba City, CA' ordinal='112' />
+            <column datatype='integer' name='Punta Gorda, FL' ordinal='113' />
+            <column datatype='integer' name='Pueblo, CO' ordinal='114' />
+            <column datatype='integer' name='Sherman, TX' ordinal='115' />
+            <column datatype='integer' name='Dunn, NC' ordinal='116' />
+            <column datatype='integer' name='Truckee, CA' ordinal='117' />
+            <column datatype='integer' name='The Villages, FL' ordinal='118' />
+            <column datatype='integer' name='Faribault, MN' ordinal='119' />
+            <column datatype='integer' name='Albemarle, NC' ordinal='120' />
+            <column datatype='integer' name='Kerrville, TX' ordinal='121' />
+            <column datatype='integer' name='Shelbyville, TN' ordinal='122' />
+            <column datatype='integer' name='Wilmington, OH' ordinal='123' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median Housing Price</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median Housing Price]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Median Housing Price</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MSACR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MSACR]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>MSACR</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mortgage Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mortgage Rate]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Mortgage Rate</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New York, NY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New York, NY]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>New York, NY</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Los Angeles-Long Beach-Anaheim, CA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Los Angeles-Long Beach-Anaheim, CA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Los Angeles-Long Beach-Anaheim, CA</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Chicago, IL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Chicago, IL]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Chicago, IL</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dallas-Fort Worth, TX</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dallas-Fort Worth, TX]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Dallas-Fort Worth, TX</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Philadelphia, PA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Philadelphia, PA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Philadelphia, PA</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Houston, TX</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Houston, TX]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Houston, TX</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Washington, DC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Washington, DC]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Washington, DC</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Miami-Fort Lauderdale, FL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Miami-Fort Lauderdale, FL]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Miami-Fort Lauderdale, FL</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Atlanta, GA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Atlanta, GA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Atlanta, GA</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Boston, MA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Boston, MA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Boston, MA</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>San Francisco, CA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[San Francisco, CA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>San Francisco, CA</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Detroit, MI</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Detroit, MI]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Detroit, MI</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Riverside, CA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Riverside, CA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Riverside, CA</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Phoenix, AZ</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Phoenix, AZ]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Phoenix, AZ</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Seattle, WA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Seattle, WA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Seattle, WA</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Minneapolis-St Paul, MN</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Minneapolis-St Paul, MN]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Minneapolis-St Paul, MN</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>San Diego, CA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[San Diego, CA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>San Diego, CA</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>St. Louis, MO</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[St. Louis, MO]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>St. Louis, MO</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tampa, FL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tampa, FL]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Tampa, FL</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Baltimore, MD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Baltimore, MD]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Baltimore, MD</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Denver, CO</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Denver, CO]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Denver, CO</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pittsburgh, PA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pittsburgh, PA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Pittsburgh, PA</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Portland, OR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Portland, OR]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Portland, OR</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Charlotte, NC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Charlotte, NC]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Charlotte, NC</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sacramento, CA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sacramento, CA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Sacramento, CA</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>San Antonio, TX</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[San Antonio, TX]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>San Antonio, TX</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Orlando, FL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Orlando, FL]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Orlando, FL</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cincinnati, OH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cincinnati, OH]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Cincinnati, OH</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cleveland, OH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cleveland, OH]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Cleveland, OH</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kansas City, MO</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Kansas City, MO]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Kansas City, MO</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Las Vegas, NV</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Las Vegas, NV]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Las Vegas, NV</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Columbus, OH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Columbus, OH]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Columbus, OH</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indianapolis, IN</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Indianapolis, IN]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Indianapolis, IN</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>San Jose, CA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[San Jose, CA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>San Jose, CA</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Austin, TX</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Austin, TX]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Austin, TX</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Virginia Beach, VA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Virginia Beach, VA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Virginia Beach, VA</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nashville, TN</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Nashville, TN]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Nashville, TN</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Providence, RI</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Providence, RI]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Providence, RI</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Milwaukee, WI</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Milwaukee, WI]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Milwaukee, WI</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jacksonville, FL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Jacksonville, FL]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Jacksonville, FL</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Memphis, TN</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Memphis, TN]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Memphis, TN</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oklahoma City, OK</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Oklahoma City, OK]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Oklahoma City, OK</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Louisville-Jefferson County, KY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Louisville-Jefferson County, KY]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Louisville-Jefferson County, KY</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hartford, CT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hartford, CT]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Hartford, CT</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Richmond, VA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Richmond, VA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Richmond, VA</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Orleans, LA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Orleans, LA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>New Orleans, LA</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Buffalo, NY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Buffalo, NY]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Buffalo, NY</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Raleigh, NC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Raleigh, NC]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Raleigh, NC</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Birmingham, AL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Birmingham, AL]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Birmingham, AL</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Salt Lake City, UT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Salt Lake City, UT]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Salt Lake City, UT</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rochester, NY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rochester, NY]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Rochester, NY</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grand Rapids, MI</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Grand Rapids, MI]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Grand Rapids, MI</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tucson, AZ</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tucson, AZ]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Tucson, AZ</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Urban Honolulu, HI</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Urban Honolulu, HI]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Urban Honolulu, HI</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tulsa, OK</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tulsa, OK]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Tulsa, OK</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fresno, CA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fresno, CA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Fresno, CA</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Worcester, MA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Worcester, MA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Worcester, MA</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stamford, CT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Stamford, CT]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Stamford, CT</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Albuquerque, NM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Albuquerque, NM]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Albuquerque, NM</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Albany, NY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Albany, NY]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Albany, NY</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Omaha, NE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Omaha, NE]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Omaha, NE</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Haven, CT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Haven, CT]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>New Haven, CT</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bakersfield, CA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Bakersfield, CA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Bakersfield, CA</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Knoxville, TN</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Knoxville, TN]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Knoxville, TN</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Greenville, SC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Greenville, SC]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Greenville, SC</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ventura, CA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ventura, CA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Ventura, CA</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allentown, PA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Allentown, PA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Allentown, PA</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>El Paso, TX</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[El Paso, TX]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>El Paso, TX</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Baton Rouge, LA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Baton Rouge, LA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Baton Rouge, LA</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dayton, OH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dayton, OH]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Dayton, OH</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>McAllen, TX</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[McAllen, TX]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>McAllen, TX</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Columbia, SC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Columbia, SC]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Columbia, SC</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Greensboro, NC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Greensboro, NC]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Greensboro, NC</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Akron, OH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Akron, OH]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Akron, OH</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>North Port-Sarasota-Bradenton, FL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[North Port-Sarasota-Bradenton, FL]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>North Port-Sarasota-Bradenton, FL</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Little Rock, AR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Little Rock, AR]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Little Rock, AR</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stockton, CA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Stockton, CA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Stockton, CA</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Charleston, SC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Charleston, SC]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Charleston, SC</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Syracuse, NY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Syracuse, NY]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Syracuse, NY</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Colorado Springs, CO</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Colorado Springs, CO]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Colorado Springs, CO</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Winston-Salem, NC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Winston-Salem, NC]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Winston-Salem, NC</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wichita, KS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wichita, KS]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Wichita, KS</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Springfield, MA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Springfield, MA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Springfield, MA</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fort Myers, FL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fort Myers, FL]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Fort Myers, FL</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Boise City, ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Boise City, ID]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Boise City, ID</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Toledo, OH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Toledo, OH]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Toledo, OH</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Madison, WI</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Madison, WI]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Madison, WI</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lakeland, FL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lakeland, FL]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Lakeland, FL</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ogden, UT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ogden, UT]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Ogden, UT</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Daytona Beach, FL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Daytona Beach, FL]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Daytona Beach, FL</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Des Moines, IA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Des Moines, IA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Des Moines, IA</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jackson, MS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Jackson, MS]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Jackson, MS</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Augusta, GA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Augusta, GA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Augusta, GA</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Harrisburg, PA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Harrisburg, PA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Harrisburg, PA</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Provo, UT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Provo, UT]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Provo, UT</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Durham, NC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Durham, NC]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Durham, NC</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Port St. Lucie, FL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Port St. Lucie, FL]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Port St. Lucie, FL</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vallejo, CA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Vallejo, CA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Vallejo, CA</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Killeen, TX</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Killeen, TX]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Killeen, TX</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Salem, OR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Salem, OR]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Salem, OR</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ocala, FL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ocala, FL]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Ocala, FL</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fort Collins, CO</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fort Collins, CO]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Fort Collins, CO</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Boulder, CO</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Boulder, CO]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Boulder, CO</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clarksville, TN</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Clarksville, TN]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Clarksville, TN</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Greeley, CO</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Greeley, CO]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Greeley, CO</remote-alias>
+            <ordinal>108</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Macon-Bibb County, GA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Macon-Bibb County, GA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Macon-Bibb County, GA</remote-alias>
+            <ordinal>109</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Athens, GA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Athens, GA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Athens, GA</remote-alias>
+            <ordinal>110</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gainesville, GA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gainesville, GA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Gainesville, GA</remote-alias>
+            <ordinal>111</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Yuba City, CA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Yuba City, CA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Yuba City, CA</remote-alias>
+            <ordinal>112</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Punta Gorda, FL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Punta Gorda, FL]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Punta Gorda, FL</remote-alias>
+            <ordinal>113</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pueblo, CO</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pueblo, CO]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Pueblo, CO</remote-alias>
+            <ordinal>114</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sherman, TX</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sherman, TX]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Sherman, TX</remote-alias>
+            <ordinal>115</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dunn, NC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dunn, NC]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Dunn, NC</remote-alias>
+            <ordinal>116</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Truckee, CA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Truckee, CA]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Truckee, CA</remote-alias>
+            <ordinal>117</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>The Villages, FL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[The Villages, FL]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>The Villages, FL</remote-alias>
+            <ordinal>118</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Faribault, MN</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Faribault, MN]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Faribault, MN</remote-alias>
+            <ordinal>119</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Albemarle, NC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Albemarle, NC]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Albemarle, NC</remote-alias>
+            <ordinal>120</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kerrville, TX</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Kerrville, TX]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Kerrville, TX</remote-alias>
+            <ordinal>121</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shelbyville, TN</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shelbyville, TN]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Shelbyville, TN</remote-alias>
+            <ordinal>122</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wilmington, OH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wilmington, OH]</local-name>
+            <parent-name>[monthly_comparisons.csv]</parent-name>
+            <remote-alias>Wilmington, OH</remote-alias>
+            <ordinal>123</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Akron, OH]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Albany, NY]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Dallas-Fort Worth, TX]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Los Angeles-Long Beach-Anaheim, CA]' role='measure' type='quantitative' />
+      <column caption='Msacr' datatype='real' name='[MSACR]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Median Housing Price]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Mortgage Rate]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='monthly_comparisons.csv' datatype='table' name='[__tableau_internal_object_id__].[monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44]' role='measure' type='quantitative' />
+      <column-instance column='[Akron, OH]' derivation='Avg' name='[avg:Akron, OH:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Albany, NY]' derivation='Avg' name='[avg:Albany, NY:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Dallas-Fort Worth, TX]' derivation='Avg' name='[avg:Dallas-Fort Worth, TX:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Los Angeles-Long Beach-Anaheim, CA]' derivation='Avg' name='[avg:Los Angeles-Long Beach-Anaheim, CA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MSACR]' derivation='Avg' name='[avg:MSACR:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Median Housing Price]' derivation='Avg' name='[avg:Median Housing Price:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Mortgage Rate]' derivation='Avg' name='[avg:Mortgage Rate:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Akron, OH]' derivation='Sum' name='[sum:Akron, OH:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Albany, NY]' derivation='Sum' name='[sum:Albany, NY:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Dallas-Fort Worth, TX]' derivation='Sum' name='[sum:Dallas-Fort Worth, TX:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Los Angeles-Long Beach-Anaheim, CA]' derivation='Sum' name='[sum:Los Angeles-Long Beach-Anaheim, CA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MSACR]' derivation='Sum' name='[sum:MSACR:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Median Housing Price]' derivation='Sum' name='[sum:Median Housing Price:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Mortgage Rate]' derivation='Sum' name='[sum:Mortgage Rate:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' palette='purple_pink_gray_10_0' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Akron, OH:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[sum:Akron, OH:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[sum:Mortgage Rate:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Dallas-Fort Worth, TX:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[sum:Dallas-Fort Worth, TX:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Los Angeles-Long Beach-Anaheim, CA:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[sum:Los Angeles-Long Beach-Anaheim, CA:qk]&quot;</bucket>
+            </map>
+            <map to='#8074a8'>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Mortgage Rate:qk]&quot;</bucket>
+            </map>
+            <map to='#c6c1f0'>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:MSACR:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Albany, NY:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[sum:Albany, NY:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Median Housing Price:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[sum:Median Housing Price:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[sum:MSACR:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='monthly_comparisons.csv' id='monthly_comparisons.csv_A6BEB6CA78C54742AF30A328F2665C44'>
+            <properties context=''>
+              <relation connection='textscan.0hin2db1efuoij1arvhwd1sic62y' name='monthly_comparisons.csv' table='[monthly_comparisons#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='date' name='Month' ordinal='0' />
+                  <column datatype='integer' name='Median Housing Price' ordinal='1' />
+                  <column datatype='real' name='MSACR' ordinal='2' />
+                  <column datatype='real' name='Mortgage Rate' ordinal='3' />
+                  <column datatype='integer' name='New York, NY' ordinal='4' />
+                  <column datatype='integer' name='Los Angeles-Long Beach-Anaheim, CA' ordinal='5' />
+                  <column datatype='integer' name='Chicago, IL' ordinal='6' />
+                  <column datatype='integer' name='Dallas-Fort Worth, TX' ordinal='7' />
+                  <column datatype='integer' name='Philadelphia, PA' ordinal='8' />
+                  <column datatype='integer' name='Houston, TX' ordinal='9' />
+                  <column datatype='integer' name='Washington, DC' ordinal='10' />
+                  <column datatype='integer' name='Miami-Fort Lauderdale, FL' ordinal='11' />
+                  <column datatype='integer' name='Atlanta, GA' ordinal='12' />
+                  <column datatype='integer' name='Boston, MA' ordinal='13' />
+                  <column datatype='integer' name='San Francisco, CA' ordinal='14' />
+                  <column datatype='integer' name='Detroit, MI' ordinal='15' />
+                  <column datatype='integer' name='Riverside, CA' ordinal='16' />
+                  <column datatype='integer' name='Phoenix, AZ' ordinal='17' />
+                  <column datatype='integer' name='Seattle, WA' ordinal='18' />
+                  <column datatype='integer' name='Minneapolis-St Paul, MN' ordinal='19' />
+                  <column datatype='integer' name='San Diego, CA' ordinal='20' />
+                  <column datatype='integer' name='St. Louis, MO' ordinal='21' />
+                  <column datatype='integer' name='Tampa, FL' ordinal='22' />
+                  <column datatype='integer' name='Baltimore, MD' ordinal='23' />
+                  <column datatype='integer' name='Denver, CO' ordinal='24' />
+                  <column datatype='integer' name='Pittsburgh, PA' ordinal='25' />
+                  <column datatype='integer' name='Portland, OR' ordinal='26' />
+                  <column datatype='integer' name='Charlotte, NC' ordinal='27' />
+                  <column datatype='integer' name='Sacramento, CA' ordinal='28' />
+                  <column datatype='integer' name='San Antonio, TX' ordinal='29' />
+                  <column datatype='integer' name='Orlando, FL' ordinal='30' />
+                  <column datatype='integer' name='Cincinnati, OH' ordinal='31' />
+                  <column datatype='integer' name='Cleveland, OH' ordinal='32' />
+                  <column datatype='integer' name='Kansas City, MO' ordinal='33' />
+                  <column datatype='integer' name='Las Vegas, NV' ordinal='34' />
+                  <column datatype='integer' name='Columbus, OH' ordinal='35' />
+                  <column datatype='integer' name='Indianapolis, IN' ordinal='36' />
+                  <column datatype='integer' name='San Jose, CA' ordinal='37' />
+                  <column datatype='integer' name='Austin, TX' ordinal='38' />
+                  <column datatype='integer' name='Virginia Beach, VA' ordinal='39' />
+                  <column datatype='integer' name='Nashville, TN' ordinal='40' />
+                  <column datatype='integer' name='Providence, RI' ordinal='41' />
+                  <column datatype='integer' name='Milwaukee, WI' ordinal='42' />
+                  <column datatype='integer' name='Jacksonville, FL' ordinal='43' />
+                  <column datatype='integer' name='Memphis, TN' ordinal='44' />
+                  <column datatype='integer' name='Oklahoma City, OK' ordinal='45' />
+                  <column datatype='integer' name='Louisville-Jefferson County, KY' ordinal='46' />
+                  <column datatype='integer' name='Hartford, CT' ordinal='47' />
+                  <column datatype='integer' name='Richmond, VA' ordinal='48' />
+                  <column datatype='integer' name='New Orleans, LA' ordinal='49' />
+                  <column datatype='integer' name='Buffalo, NY' ordinal='50' />
+                  <column datatype='integer' name='Raleigh, NC' ordinal='51' />
+                  <column datatype='integer' name='Birmingham, AL' ordinal='52' />
+                  <column datatype='integer' name='Salt Lake City, UT' ordinal='53' />
+                  <column datatype='integer' name='Rochester, NY' ordinal='54' />
+                  <column datatype='integer' name='Grand Rapids, MI' ordinal='55' />
+                  <column datatype='integer' name='Tucson, AZ' ordinal='56' />
+                  <column datatype='integer' name='Urban Honolulu, HI' ordinal='57' />
+                  <column datatype='integer' name='Tulsa, OK' ordinal='58' />
+                  <column datatype='integer' name='Fresno, CA' ordinal='59' />
+                  <column datatype='integer' name='Worcester, MA' ordinal='60' />
+                  <column datatype='integer' name='Stamford, CT' ordinal='61' />
+                  <column datatype='integer' name='Albuquerque, NM' ordinal='62' />
+                  <column datatype='integer' name='Albany, NY' ordinal='63' />
+                  <column datatype='integer' name='Omaha, NE' ordinal='64' />
+                  <column datatype='integer' name='New Haven, CT' ordinal='65' />
+                  <column datatype='integer' name='Bakersfield, CA' ordinal='66' />
+                  <column datatype='integer' name='Knoxville, TN' ordinal='67' />
+                  <column datatype='integer' name='Greenville, SC' ordinal='68' />
+                  <column datatype='integer' name='Ventura, CA' ordinal='69' />
+                  <column datatype='integer' name='Allentown, PA' ordinal='70' />
+                  <column datatype='integer' name='El Paso, TX' ordinal='71' />
+                  <column datatype='integer' name='Baton Rouge, LA' ordinal='72' />
+                  <column datatype='integer' name='Dayton, OH' ordinal='73' />
+                  <column datatype='integer' name='McAllen, TX' ordinal='74' />
+                  <column datatype='integer' name='Columbia, SC' ordinal='75' />
+                  <column datatype='integer' name='Greensboro, NC' ordinal='76' />
+                  <column datatype='integer' name='Akron, OH' ordinal='77' />
+                  <column datatype='integer' name='North Port-Sarasota-Bradenton, FL' ordinal='78' />
+                  <column datatype='integer' name='Little Rock, AR' ordinal='79' />
+                  <column datatype='integer' name='Stockton, CA' ordinal='80' />
+                  <column datatype='integer' name='Charleston, SC' ordinal='81' />
+                  <column datatype='integer' name='Syracuse, NY' ordinal='82' />
+                  <column datatype='integer' name='Colorado Springs, CO' ordinal='83' />
+                  <column datatype='integer' name='Winston-Salem, NC' ordinal='84' />
+                  <column datatype='integer' name='Wichita, KS' ordinal='85' />
+                  <column datatype='integer' name='Springfield, MA' ordinal='86' />
+                  <column datatype='integer' name='Fort Myers, FL' ordinal='87' />
+                  <column datatype='integer' name='Boise City, ID' ordinal='88' />
+                  <column datatype='integer' name='Toledo, OH' ordinal='89' />
+                  <column datatype='integer' name='Madison, WI' ordinal='90' />
+                  <column datatype='integer' name='Lakeland, FL' ordinal='91' />
+                  <column datatype='integer' name='Ogden, UT' ordinal='92' />
+                  <column datatype='integer' name='Daytona Beach, FL' ordinal='93' />
+                  <column datatype='integer' name='Des Moines, IA' ordinal='94' />
+                  <column datatype='integer' name='Jackson, MS' ordinal='95' />
+                  <column datatype='integer' name='Augusta, GA' ordinal='96' />
+                  <column datatype='integer' name='Harrisburg, PA' ordinal='97' />
+                  <column datatype='integer' name='Provo, UT' ordinal='98' />
+                  <column datatype='integer' name='Durham, NC' ordinal='99' />
+                  <column datatype='integer' name='Port St. Lucie, FL' ordinal='100' />
+                  <column datatype='integer' name='Vallejo, CA' ordinal='101' />
+                  <column datatype='integer' name='Killeen, TX' ordinal='102' />
+                  <column datatype='integer' name='Salem, OR' ordinal='103' />
+                  <column datatype='integer' name='Ocala, FL' ordinal='104' />
+                  <column datatype='integer' name='Fort Collins, CO' ordinal='105' />
+                  <column datatype='integer' name='Boulder, CO' ordinal='106' />
+                  <column datatype='integer' name='Clarksville, TN' ordinal='107' />
+                  <column datatype='integer' name='Greeley, CO' ordinal='108' />
+                  <column datatype='integer' name='Macon-Bibb County, GA' ordinal='109' />
+                  <column datatype='integer' name='Athens, GA' ordinal='110' />
+                  <column datatype='integer' name='Gainesville, GA' ordinal='111' />
+                  <column datatype='integer' name='Yuba City, CA' ordinal='112' />
+                  <column datatype='integer' name='Punta Gorda, FL' ordinal='113' />
+                  <column datatype='integer' name='Pueblo, CO' ordinal='114' />
+                  <column datatype='integer' name='Sherman, TX' ordinal='115' />
+                  <column datatype='integer' name='Dunn, NC' ordinal='116' />
+                  <column datatype='integer' name='Truckee, CA' ordinal='117' />
+                  <column datatype='integer' name='The Villages, FL' ordinal='118' />
+                  <column datatype='integer' name='Faribault, MN' ordinal='119' />
+                  <column datatype='integer' name='Albemarle, NC' ordinal='120' />
+                  <column datatype='integer' name='Kerrville, TX' ordinal='121' />
+                  <column datatype='integer' name='Shelbyville, TN' ordinal='122' />
+                  <column datatype='integer' name='Wilmington, OH' ordinal='123' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='monthly_comparisons' name='federated.1ctqccq0xek3ud17judu10s4l51k' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ctqccq0xek3ud17judu10s4l51k'>
+            <column datatype='integer' name='[Akron, OH]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Albany, NY]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Dallas-Fort Worth, TX]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Los Angeles-Long Beach-Anaheim, CA]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Median Housing Price]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Month]' role='dimension' type='ordinal' />
+            <column-instance column='[Akron, OH]' derivation='Avg' name='[avg:Akron, OH:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Albany, NY]' derivation='Avg' name='[avg:Albany, NY:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Dallas-Fort Worth, TX]' derivation='Avg' name='[avg:Dallas-Fort Worth, TX:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Los Angeles-Long Beach-Anaheim, CA]' derivation='Avg' name='[avg:Los Angeles-Long Beach-Anaheim, CA:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Median Housing Price]' derivation='Avg' name='[avg:Median Housing Price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Month]' derivation='Year-Trunc' name='[tyr:Month:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ctqccq0xek3ud17judu10s4l51k].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Albany, NY:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Akron, OH:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Median Housing Price:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Los Angeles-Long Beach-Anaheim, CA:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Dallas-Fort Worth, TX:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1ctqccq0xek3ud17judu10s4l51k].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Albany, NY:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Akron, OH:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Median Housing Price:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1ctqccq0xek3ud17judu10s4l51k].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.1ctqccq0xek3ud17judu10s4l51k].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ctqccq0xek3ud17judu10s4l51k].[Multiple Values]</rows>
+        <cols>[federated.1ctqccq0xek3ud17judu10s4l51k].[tyr:Month:qk]</cols>
+      </table>
+      <simple-id uuid='{235A1A46-6212-471A-85E7-C93E0A12D0D8}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>U.S. Median Housing Price 2008-2020</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='monthly_comparisons' name='federated.1ctqccq0xek3ud17judu10s4l51k' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ctqccq0xek3ud17judu10s4l51k'>
+            <column datatype='integer' name='[Median Housing Price]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Month]' role='dimension' type='ordinal' />
+            <column-instance column='[Median Housing Price]' derivation='Avg' name='[avg:Median Housing Price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Month]' derivation='Year' name='[yr:Month:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Median Housing Price:qk]' field-type='quantitative' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#00007f' />
+                <format attr='mark-markers-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Median Housing Price:qk]</rows>
+        <cols>[federated.1ctqccq0xek3ud17judu10s4l51k].[yr:Month:ok]</cols>
+      </table>
+      <simple-id uuid='{4CCFE443-BA0B-4D50-88C8-ECDC62404588}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Mortgage Rate vs. MSACR 2008-2020</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='monthly_comparisons' name='federated.1ctqccq0xek3ud17judu10s4l51k' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ctqccq0xek3ud17judu10s4l51k'>
+            <column caption='Msacr' datatype='real' name='[MSACR]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Month]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Mortgage Rate]' role='measure' type='quantitative' />
+            <column-instance column='[MSACR]' derivation='Avg' name='[avg:MSACR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Mortgage Rate]' derivation='Avg' name='[avg:Mortgage Rate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Month]' derivation='Year' name='[yr:Month:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ctqccq0xek3ud17judu10s4l51k].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Mortgage Rate:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:MSACR:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1ctqccq0xek3ud17judu10s4l51k].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:Mortgage Rate:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ctqccq0xek3ud17judu10s4l51k].[avg:MSACR:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1ctqccq0xek3ud17judu10s4l51k].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ctqccq0xek3ud17judu10s4l51k].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ctqccq0xek3ud17judu10s4l51k].[Multiple Values]</rows>
+        <cols>[federated.1ctqccq0xek3ud17judu10s4l51k].[yr:Month:ok]</cols>
+      </table>
+      <simple-id uuid='{01082F4E-2D0F-4E2A-88E3-7C6F96692D69}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1ctqccq0xek3ud17judu10s4l51k].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ctqccq0xek3ud17judu10s4l51k].[:Measure Names]</field>
+            <field>[federated.1ctqccq0xek3ud17judu10s4l51k].[yr:Month:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{84A72EEC-D62D-475F-8FCF-738D9A0DE00C}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ctqccq0xek3ud17judu10s4l51k].[yr:Month:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FF210F84-D84B-4F3B-A970-3E9FE4497F76}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ctqccq0xek3ud17judu10s4l51k].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ctqccq0xek3ud17judu10s4l51k].[:Measure Names]</field>
+            <field>[federated.1ctqccq0xek3ud17judu10s4l51k].[yr:Month:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{DC949BBF-1CD3-4F47-9F07-E8101AFA6275}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      /v8DyQqEtvaX3SMAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+      Maz/D7mHT3sYkBaTAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>

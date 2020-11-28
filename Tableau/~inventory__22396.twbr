@@ -1,0 +1,1585 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.0918.1727                               -->
+<workbook source-build='2020.3.1 (20203.20.0918.1727)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='SFR Inventory' inline='true' name='federated.0off1aw08m7gv416zc3px02u3yec' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='SFR Inventory' name='textscan.0sehmht18gcny214fdent163p1yz'>
+            <connection class='textscan' directory='C:/Users/megan/Documents/DataBootCamp_Projects/Group_3_Project_3/Resources' filename='SFR Inventory.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0sehmht18gcny214fdent163p1yz' name='SFR Inventory.csv' table='[SFR Inventory#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='RegionID' ordinal='0' />
+            <column datatype='integer' name='SizeRank' ordinal='1' />
+            <column datatype='string' name='RegionName' ordinal='2' />
+            <column datatype='string' name='RegionType' ordinal='3' />
+            <column datatype='string' name='City' ordinal='4' />
+            <column datatype='string' name='StateName' ordinal='5' />
+            <column datatype='integer' name='12/31/2017' ordinal='6' />
+            <column datatype='integer' name='1/31/2018' ordinal='7' />
+            <column datatype='integer' name='2/28/2018' ordinal='8' />
+            <column datatype='integer' name='3/31/2018' ordinal='9' />
+            <column datatype='integer' name='4/30/2018' ordinal='10' />
+            <column datatype='integer' name='5/31/2018' ordinal='11' />
+            <column datatype='integer' name='6/30/2018' ordinal='12' />
+            <column datatype='integer' name='7/31/2018' ordinal='13' />
+            <column datatype='integer' name='8/31/2018' ordinal='14' />
+            <column datatype='integer' name='9/30/2018' ordinal='15' />
+            <column datatype='integer' name='10/31/2018' ordinal='16' />
+            <column datatype='integer' name='11/30/2018' ordinal='17' />
+            <column datatype='integer' name='12/31/2018' ordinal='18' />
+            <column datatype='integer' name='1/31/2019' ordinal='19' />
+            <column datatype='integer' name='2/28/2019' ordinal='20' />
+            <column datatype='integer' name='3/31/2019' ordinal='21' />
+            <column datatype='integer' name='4/30/2019' ordinal='22' />
+            <column datatype='integer' name='5/31/2019' ordinal='23' />
+            <column datatype='integer' name='6/30/2019' ordinal='24' />
+            <column datatype='integer' name='7/31/2019' ordinal='25' />
+            <column datatype='integer' name='8/31/2019' ordinal='26' />
+            <column datatype='integer' name='9/30/2019' ordinal='27' />
+            <column datatype='integer' name='10/31/2019' ordinal='28' />
+            <column datatype='integer' name='11/30/2019' ordinal='29' />
+            <column datatype='integer' name='12/31/2019' ordinal='30' />
+            <column datatype='integer' name='1/31/2020' ordinal='31' />
+            <column datatype='integer' name='2/29/2020' ordinal='32' />
+            <column datatype='integer' name='3/31/2020' ordinal='33' />
+            <column datatype='integer' name='4/30/2020' ordinal='34' />
+            <column datatype='integer' name='5/31/2020' ordinal='35' />
+            <column datatype='integer' name='6/30/2020' ordinal='36' />
+            <column datatype='integer' name='7/31/2020' ordinal='37' />
+            <column datatype='integer' name='8/31/2020' ordinal='38' />
+            <column datatype='integer' name='9/30/2020' ordinal='39' />
+            <column datatype='integer' name='Change Over Time' ordinal='40' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0sehmht18gcny214fdent163p1yz' name='SFR Inventory.csv' table='[SFR Inventory#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='RegionID' ordinal='0' />
+            <column datatype='integer' name='SizeRank' ordinal='1' />
+            <column datatype='string' name='RegionName' ordinal='2' />
+            <column datatype='string' name='RegionType' ordinal='3' />
+            <column datatype='string' name='City' ordinal='4' />
+            <column datatype='string' name='StateName' ordinal='5' />
+            <column datatype='integer' name='12/31/2017' ordinal='6' />
+            <column datatype='integer' name='1/31/2018' ordinal='7' />
+            <column datatype='integer' name='2/28/2018' ordinal='8' />
+            <column datatype='integer' name='3/31/2018' ordinal='9' />
+            <column datatype='integer' name='4/30/2018' ordinal='10' />
+            <column datatype='integer' name='5/31/2018' ordinal='11' />
+            <column datatype='integer' name='6/30/2018' ordinal='12' />
+            <column datatype='integer' name='7/31/2018' ordinal='13' />
+            <column datatype='integer' name='8/31/2018' ordinal='14' />
+            <column datatype='integer' name='9/30/2018' ordinal='15' />
+            <column datatype='integer' name='10/31/2018' ordinal='16' />
+            <column datatype='integer' name='11/30/2018' ordinal='17' />
+            <column datatype='integer' name='12/31/2018' ordinal='18' />
+            <column datatype='integer' name='1/31/2019' ordinal='19' />
+            <column datatype='integer' name='2/28/2019' ordinal='20' />
+            <column datatype='integer' name='3/31/2019' ordinal='21' />
+            <column datatype='integer' name='4/30/2019' ordinal='22' />
+            <column datatype='integer' name='5/31/2019' ordinal='23' />
+            <column datatype='integer' name='6/30/2019' ordinal='24' />
+            <column datatype='integer' name='7/31/2019' ordinal='25' />
+            <column datatype='integer' name='8/31/2019' ordinal='26' />
+            <column datatype='integer' name='9/30/2019' ordinal='27' />
+            <column datatype='integer' name='10/31/2019' ordinal='28' />
+            <column datatype='integer' name='11/30/2019' ordinal='29' />
+            <column datatype='integer' name='12/31/2019' ordinal='30' />
+            <column datatype='integer' name='1/31/2020' ordinal='31' />
+            <column datatype='integer' name='2/29/2020' ordinal='32' />
+            <column datatype='integer' name='3/31/2020' ordinal='33' />
+            <column datatype='integer' name='4/30/2020' ordinal='34' />
+            <column datatype='integer' name='5/31/2020' ordinal='35' />
+            <column datatype='integer' name='6/30/2020' ordinal='36' />
+            <column datatype='integer' name='7/31/2020' ordinal='37' />
+            <column datatype='integer' name='8/31/2020' ordinal='38' />
+            <column datatype='integer' name='9/30/2020' ordinal='39' />
+            <column datatype='integer' name='Change Over Time' ordinal='40' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RegionID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RegionID]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>RegionID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SizeRank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SizeRank]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>SizeRank</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RegionName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RegionName]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>RegionName</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RegionType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RegionType]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>RegionType</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StateName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[StateName]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>StateName</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>12/31/2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[12/31/2017]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>12/31/2017</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1/31/2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1/31/2018]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>1/31/2018</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/28/2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/28/2018]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>2/28/2018</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/31/2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/31/2018]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>3/31/2018</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/30/2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/30/2018]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>4/30/2018</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5/31/2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[5/31/2018]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>5/31/2018</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>6/30/2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[6/30/2018]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>6/30/2018</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>7/31/2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[7/31/2018]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>7/31/2018</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>8/31/2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[8/31/2018]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>8/31/2018</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>9/30/2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[9/30/2018]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>9/30/2018</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>10/31/2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[10/31/2018]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>10/31/2018</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>11/30/2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[11/30/2018]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>11/30/2018</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>12/31/2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[12/31/2018]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>12/31/2018</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1/31/2019</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1/31/2019]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>1/31/2019</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/28/2019</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/28/2019]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>2/28/2019</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/31/2019</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/31/2019]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>3/31/2019</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/30/2019</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/30/2019]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>4/30/2019</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5/31/2019</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[5/31/2019]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>5/31/2019</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>6/30/2019</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[6/30/2019]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>6/30/2019</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>7/31/2019</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[7/31/2019]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>7/31/2019</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>8/31/2019</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[8/31/2019]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>8/31/2019</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>9/30/2019</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[9/30/2019]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>9/30/2019</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>10/31/2019</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[10/31/2019]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>10/31/2019</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>11/30/2019</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[11/30/2019]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>11/30/2019</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>12/31/2019</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[12/31/2019]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>12/31/2019</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1/31/2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1/31/2020]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>1/31/2020</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/29/2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/29/2020]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>2/29/2020</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/31/2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/31/2020]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>3/31/2020</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/30/2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/30/2020]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>4/30/2020</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5/31/2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[5/31/2020]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>5/31/2020</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>6/30/2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[6/30/2020]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>6/30/2020</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>7/31/2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[7/31/2020]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>7/31/2020</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>8/31/2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[8/31/2020]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>8/31/2020</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>9/30/2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[9/30/2020]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>9/30/2020</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Change Over Time</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Change Over Time]</local-name>
+            <parent-name>[SFR Inventory.csv]</parent-name>
+            <remote-alias>Change Over Time</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Region ID' datatype='integer' name='[RegionID]' role='dimension' type='ordinal' />
+      <column caption='Region Name' datatype='string' name='[RegionName]' role='dimension' type='nominal' />
+      <column caption='Region Type' datatype='string' name='[RegionType]' role='dimension' type='nominal' />
+      <column caption='Size Rank' datatype='integer' name='[SizeRank]' role='measure' type='quantitative' />
+      <column caption='State Name' datatype='string' name='[StateName]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='SFR Inventory.csv' datatype='table' name='[__tableau_internal_object_id__].[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/megan/OneDrive/Documents/My Tableau Repository/Datasources/SFR Inventory.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>RegionID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[RegionID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RegionID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SizeRank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SizeRank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SizeRank</remote-alias>
+              <ordinal>1</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RegionName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[RegionName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RegionName</remote-alias>
+              <ordinal>2</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RegionType</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[RegionType]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RegionType</remote-alias>
+              <ordinal>3</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>City</remote-alias>
+              <ordinal>4</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>StateName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[StateName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>StateName</remote-alias>
+              <ordinal>5</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>40</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>12/31/2017</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[12/31/2017]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>12/31/2017</remote-alias>
+              <ordinal>6</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>118</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1/31/2018</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[1/31/2018]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1/31/2018</remote-alias>
+              <ordinal>7</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2/28/2018</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[2/28/2018]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2/28/2018</remote-alias>
+              <ordinal>8</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3/31/2018</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[3/31/2018]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3/31/2018</remote-alias>
+              <ordinal>9</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>4/30/2018</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[4/30/2018]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>4/30/2018</remote-alias>
+              <ordinal>10</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>5/31/2018</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[5/31/2018]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>5/31/2018</remote-alias>
+              <ordinal>11</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>6/30/2018</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[6/30/2018]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>6/30/2018</remote-alias>
+              <ordinal>12</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>7/31/2018</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[7/31/2018]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>7/31/2018</remote-alias>
+              <ordinal>13</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>8/31/2018</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[8/31/2018]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>8/31/2018</remote-alias>
+              <ordinal>14</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>9/30/2018</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[9/30/2018]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>9/30/2018</remote-alias>
+              <ordinal>15</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>10/31/2018</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[10/31/2018]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>10/31/2018</remote-alias>
+              <ordinal>16</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>11/30/2018</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[11/30/2018]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>11/30/2018</remote-alias>
+              <ordinal>17</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>12/31/2018</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[12/31/2018]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>12/31/2018</remote-alias>
+              <ordinal>18</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1/31/2019</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[1/31/2019]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1/31/2019</remote-alias>
+              <ordinal>19</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2/28/2019</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[2/28/2019]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2/28/2019</remote-alias>
+              <ordinal>20</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3/31/2019</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[3/31/2019]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3/31/2019</remote-alias>
+              <ordinal>21</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>4/30/2019</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[4/30/2019]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>4/30/2019</remote-alias>
+              <ordinal>22</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>5/31/2019</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[5/31/2019]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>5/31/2019</remote-alias>
+              <ordinal>23</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>6/30/2019</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[6/30/2019]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>6/30/2019</remote-alias>
+              <ordinal>24</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>7/31/2019</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[7/31/2019]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>7/31/2019</remote-alias>
+              <ordinal>25</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>8/31/2019</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[8/31/2019]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>8/31/2019</remote-alias>
+              <ordinal>26</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>9/30/2019</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[9/30/2019]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>9/30/2019</remote-alias>
+              <ordinal>27</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>118</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>10/31/2019</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[10/31/2019]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>10/31/2019</remote-alias>
+              <ordinal>28</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>11/30/2019</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[11/30/2019]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>11/30/2019</remote-alias>
+              <ordinal>29</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>12/31/2019</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[12/31/2019]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>12/31/2019</remote-alias>
+              <ordinal>30</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1/31/2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[1/31/2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1/31/2020</remote-alias>
+              <ordinal>31</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2/29/2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[2/29/2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2/29/2020</remote-alias>
+              <ordinal>32</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3/31/2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[3/31/2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3/31/2020</remote-alias>
+              <ordinal>33</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>4/30/2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[4/30/2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>4/30/2020</remote-alias>
+              <ordinal>34</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>5/31/2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[5/31/2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>5/31/2020</remote-alias>
+              <ordinal>35</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>118</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>6/30/2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[6/30/2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>6/30/2020</remote-alias>
+              <ordinal>36</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>118</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>7/31/2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[7/31/2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>7/31/2020</remote-alias>
+              <ordinal>37</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>8/31/2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[8/31/2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>8/31/2020</remote-alias>
+              <ordinal>38</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>116</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>9/30/2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[9/30/2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>9/30/2020</remote-alias>
+              <ordinal>39</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>113</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Change Over Time</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Change Over Time]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Change Over Time</remote-alias>
+              <ordinal>40</ordinal>
+              <family>SFR Inventory.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>118</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='SFR Inventory.csv' id='SFR Inventory.csv_C07B1203F7CD42FDA8A0CE1F17CEEDA1'>
+            <properties context=''>
+              <relation connection='textscan.0sehmht18gcny214fdent163p1yz' name='SFR Inventory.csv' table='[SFR Inventory#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='RegionID' ordinal='0' />
+                  <column datatype='integer' name='SizeRank' ordinal='1' />
+                  <column datatype='string' name='RegionName' ordinal='2' />
+                  <column datatype='string' name='RegionType' ordinal='3' />
+                  <column datatype='string' name='City' ordinal='4' />
+                  <column datatype='string' name='StateName' ordinal='5' />
+                  <column datatype='integer' name='12/31/2017' ordinal='6' />
+                  <column datatype='integer' name='1/31/2018' ordinal='7' />
+                  <column datatype='integer' name='2/28/2018' ordinal='8' />
+                  <column datatype='integer' name='3/31/2018' ordinal='9' />
+                  <column datatype='integer' name='4/30/2018' ordinal='10' />
+                  <column datatype='integer' name='5/31/2018' ordinal='11' />
+                  <column datatype='integer' name='6/30/2018' ordinal='12' />
+                  <column datatype='integer' name='7/31/2018' ordinal='13' />
+                  <column datatype='integer' name='8/31/2018' ordinal='14' />
+                  <column datatype='integer' name='9/30/2018' ordinal='15' />
+                  <column datatype='integer' name='10/31/2018' ordinal='16' />
+                  <column datatype='integer' name='11/30/2018' ordinal='17' />
+                  <column datatype='integer' name='12/31/2018' ordinal='18' />
+                  <column datatype='integer' name='1/31/2019' ordinal='19' />
+                  <column datatype='integer' name='2/28/2019' ordinal='20' />
+                  <column datatype='integer' name='3/31/2019' ordinal='21' />
+                  <column datatype='integer' name='4/30/2019' ordinal='22' />
+                  <column datatype='integer' name='5/31/2019' ordinal='23' />
+                  <column datatype='integer' name='6/30/2019' ordinal='24' />
+                  <column datatype='integer' name='7/31/2019' ordinal='25' />
+                  <column datatype='integer' name='8/31/2019' ordinal='26' />
+                  <column datatype='integer' name='9/30/2019' ordinal='27' />
+                  <column datatype='integer' name='10/31/2019' ordinal='28' />
+                  <column datatype='integer' name='11/30/2019' ordinal='29' />
+                  <column datatype='integer' name='12/31/2019' ordinal='30' />
+                  <column datatype='integer' name='1/31/2020' ordinal='31' />
+                  <column datatype='integer' name='2/29/2020' ordinal='32' />
+                  <column datatype='integer' name='3/31/2020' ordinal='33' />
+                  <column datatype='integer' name='4/30/2020' ordinal='34' />
+                  <column datatype='integer' name='5/31/2020' ordinal='35' />
+                  <column datatype='integer' name='6/30/2020' ordinal='36' />
+                  <column datatype='integer' name='7/31/2020' ordinal='37' />
+                  <column datatype='integer' name='8/31/2020' ordinal='38' />
+                  <column datatype='integer' name='9/30/2020' ordinal='39' />
+                  <column datatype='integer' name='Change Over Time' ordinal='40' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SFR Inventory' name='federated.0off1aw08m7gv416zc3px02u3yec' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0off1aw08m7gv416zc3px02u3yec'>
+            <column datatype='integer' name='[9/30/2020]' role='measure' type='quantitative' />
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[9/30/2020]' derivation='Sum' name='[sum:9/30/2020:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0off1aw08m7gv416zc3px02u3yec].[Longitude (generated)]' field-type='quantitative' max='-6897151.3603106234' min='-14248443.181486042' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0off1aw08m7gv416zc3px02u3yec].[Latitude (generated)]' field-type='quantitative' max='6550909.7303367332' min='2251210.4075839818' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0off1aw08m7gv416zc3px02u3yec].[sum:9/30/2020:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#e9d2d2</color>
+                <color>#e2b5b5</color>
+                <color>#db9999</color>
+                <color>#d47f7f</color>
+                <color>#cd6666</color>
+                <color>#c64f4f</color>
+                <color>#bf3939</color>
+                <color>#b82424</color>
+                <color>#b11111</color>
+                <color>#aa0000</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='hillshade_highlight_bright' value='true' />
+            <format attr='enabled' id='hillshade_highlight_med' value='true' />
+            <format attr='enabled' id='hillshade_shadow_faint' value='true' />
+            <format attr='enabled' id='hillshade_shadow_med' value='true' />
+            <format attr='enabled' id='hillshade_shadow_dark' value='true' />
+            <format attr='enabled' id='hillshade_shadow_extreme' value='true' />
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='true' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='light' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-purple-light' />
+            <format attr='geo-area-type' value='County' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0off1aw08m7gv416zc3px02u3yec].[sum:9/30/2020:qk]' />
+              <size column='[federated.0off1aw08m7gv416zc3px02u3yec].[sum:9/30/2020:qk]' />
+              <lod column='[federated.0off1aw08m7gv416zc3px02u3yec].[none:City:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0off1aw08m7gv416zc3px02u3yec].[Latitude (generated)]</rows>
+        <cols>[federated.0off1aw08m7gv416zc3px02u3yec].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{302FC932-3B95-4B49-8ACB-E81EDF6DF761}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Available Housing Inventory 2017-2020</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SFR Inventory' name='federated.0off1aw08m7gv416zc3px02u3yec' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0off1aw08m7gv416zc3px02u3yec'>
+            <column datatype='integer' name='[Change Over Time]' role='measure' type='quantitative' />
+            <column caption='Region Name' datatype='string' name='[RegionName]' role='dimension' type='nominal' />
+            <column-instance column='[RegionName]' derivation='None' name='[none:RegionName:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Change Over Time]' derivation='Sum' name='[sum:Change Over Time:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0off1aw08m7gv416zc3px02u3yec].[sum:Change Over Time:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0off1aw08m7gv416zc3px02u3yec].[none:RegionName:nk]</rows>
+        <cols>[federated.0off1aw08m7gv416zc3px02u3yec].[sum:Change Over Time:qk]</cols>
+      </table>
+      <simple-id uuid='{241D70F7-5BFB-4317-A3CA-769619FDA531}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SFR Inventory' name='federated.0off1aw08m7gv416zc3px02u3yec' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0off1aw08m7gv416zc3px02u3yec'>
+            <column datatype='integer' name='[12/31/2017]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[12/31/2018]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[12/31/2019]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[9/30/2020]' role='measure' type='quantitative' />
+            <column caption='Region Name' datatype='string' name='[RegionName]' role='dimension' type='nominal' />
+            <column-instance column='[RegionName]' derivation='None' name='[none:RegionName:nk]' pivot='key' type='nominal' />
+            <column-instance column='[12/31/2017]' derivation='Sum' name='[sum:12/31/2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[12/31/2018]' derivation='Sum' name='[sum:12/31/2018:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[12/31/2019]' derivation='Sum' name='[sum:12/31/2019:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[9/30/2020]' derivation='Sum' name='[sum:9/30/2020:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0off1aw08m7gv416zc3px02u3yec].[sum:12/31/2017:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0off1aw08m7gv416zc3px02u3yec].[sum:12/31/2018:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0off1aw08m7gv416zc3px02u3yec].[sum:12/31/2019:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0off1aw08m7gv416zc3px02u3yec].[sum:9/30/2020:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0off1aw08m7gv416zc3px02u3yec].[none:RegionName:nk]</rows>
+        <cols>([federated.0off1aw08m7gv416zc3px02u3yec].[sum:12/31/2017:qk] + ([federated.0off1aw08m7gv416zc3px02u3yec].[sum:12/31/2018:qk] + ([federated.0off1aw08m7gv416zc3px02u3yec].[sum:12/31/2019:qk] + [federated.0off1aw08m7gv416zc3px02u3yec].[sum:9/30/2020:qk])))</cols>
+      </table>
+      <simple-id uuid='{C8FE9024-314E-4365-AAB3-FCFA894CBEAE}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' type='map' />
+            <card pane-specification-id='0' param='[federated.0off1aw08m7gv416zc3px02u3yec].[sum:9/30/2020:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0off1aw08m7gv416zc3px02u3yec].[sum:9/30/2020:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1B0EA68D-9E8F-4191-B3C2-E6D1632FA0EA}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{908BAC3D-49CC-4662-B989-3FAED1C89D49}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C63A5AE0-ACAF-4D36-AF58-6F2C40272AF1}' />
+    </window>
+  </windows>
+</workbook>
